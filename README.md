@@ -9,3 +9,11 @@
 
 <br>
 <br>
+
+## Comandos
+
+Novo App no diretório atual
+
+```sh
+ng new monorepo-angular-nx --directory=./
+```
