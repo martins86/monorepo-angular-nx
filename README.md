@@ -17,3 +17,9 @@ Novo App no diretório atual
 ```sh
 ng new monorepo-angular-nx --directory=./
 ```
+
+Adicionando o Nx (cacheable: build, test. remote caching: yes)
+
+```sh
+npx nx@latest init
+```
