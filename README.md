@@ -12,22 +12,24 @@
 
 ## Comandos
 
-Novo App no diretório atual
+Novo App no diretório atual ( Rotas: yes, Style: SCSS, SSR: no )
 
 ```sh
-ng new monorepo-angular-nx --directory=./
+ng new monorepo-angular-nx --directory=./ --routing --style=scss --ssr=false
 ```
 
 Components
 
 ```sh
-ng g c home
-ng g c users
-ng g s users/shared/services/user
-ng g c shared/services/get-param-url
+ng g c pages/home
+ng g c pages/users
+ng g c pages/users/shared/components/user-details
+ng g s pages/users/shared/services/user
+ng g c shared/components/header
+ng g s shared/services/get-param-url
 ```
 
-Adicionando o Nx (cacheable: build, test. remote caching: no)
+Adicionando o Nx ( Cacheable: build, test. Remote caching: no )
 
 ```sh
 npx nx@latest init
