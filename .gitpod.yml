@@ -1,4 +1,4 @@
-# Imagem Docker
+
 image:
   file: .gitpod.Dockerfile
 
@@ -15,3 +15,11 @@ tasks:
     before: export NG_CLI_ANALYTICS=ci
     init: echo n | npm i -g @angular/cli@17
     command: npm ci && npm run start
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode
+    - formulahendry.auto-close-tag
+    - formulahendry.auto-rename-tag
+    - hbenl.vscode-jasmine-test-adapter
+    - nrwl.angular-console
