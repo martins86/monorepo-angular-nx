@@ -27,7 +27,7 @@ ng g s users/shared/services/user
 ng g c shared/services/get-param-url
 ```
 
-Adicionando o Nx (cacheable: build, test. remote caching: yes)
+Adicionando o Nx (cacheable: build, test. remote caching: no)
 
 ```sh
 npx nx@latest init
