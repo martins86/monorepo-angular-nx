@@ -1,0 +1,1 @@
+import{da as i,ib as o,jb as a,vb as r,xb as s}from"./chunk-RZU3FEOF.js";var c=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=i({type:e,selectors:[["app-user-details"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,d){n&1&&(o(0,"p"),r(1,"user-details works!"),a())}});let t=e;return t})();export{c as UserDetailsComponent};
