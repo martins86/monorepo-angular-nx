@@ -18,6 +18,15 @@ Novo App no diretório atual
 ng new monorepo-angular-nx --directory=./
 ```
 
+Components
+
+```sh
+ng g c home
+ng g c users
+ng g s users/shared/services/user
+ng g c shared/services/get-param-url
+```
+
 Adicionando o Nx (cacheable: build, test. remote caching: yes)
 
 ```sh
