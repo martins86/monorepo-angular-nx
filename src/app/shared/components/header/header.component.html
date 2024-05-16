@@ -1,10 +1,20 @@
-<nav>
-  <ul>
-	  <li>
-	    <a href="/home">Home</a>
-	  </li>
-    <li>
-	    <a href="/users">Users</a>
-	  </li>
-  </ul>
-</nav>
+<header>
+  <mat-toolbar color="primary">
+  <nav>
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <a mat-menu-item routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <mat-icon>home</mat-icon>
+        Home
+      </a>
+      <a mat-menu-item routerLink="/users" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <mat-icon>person</mat-icon>
+        Users
+      </a>
+    </mat-menu>
+  </nav>
+  <span>List Users</span>
+</mat-toolbar>
+</header>

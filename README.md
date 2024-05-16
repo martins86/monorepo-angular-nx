@@ -29,6 +29,12 @@ ng g c shared/components/header
 ng g s shared/services/get-param-url
 ```
 
+Angular Material
+
+```sh
+ng add @angular/material
+```
+
 Adicionando o Nx ( Cacheable: build, test. Remote caching: no )
 
 ```sh
