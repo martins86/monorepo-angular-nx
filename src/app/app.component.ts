@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { HeaderComponent } from 'shared';
+import { HeaderComponent } from './shared/header/header.component';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +10,4 @@ import { HeaderComponent } from 'shared';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {
-  title = 'monorepo-angular-nx';
-}
+export class AppComponent {}

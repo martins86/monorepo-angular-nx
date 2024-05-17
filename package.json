@@ -7,13 +7,12 @@
     "build": "nx build",
     "watch": "nx build --watch --configuration development",
     "test": "nx test --coverage=true",
-    "test:dev": "npm run test -- --progress --browsers Chrome",
-    "test:ci": "npm run test -- --no-watch --no-progress --browsers ChromeHeadlessNoSandbox",
+    "test:dev": "npm run test -- --verbose",
+    "test:ci": "npm run test",
     "build:ci": "npm run build -- --base-href=/.",
     "deploy:gh": "nx deploy --base-href=/monorepo-angular-nx/",
     "graph": "npx nx graph"
   },
-  "type": "module",
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.3.0",
