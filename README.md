@@ -53,10 +53,10 @@ Modulo Home
 npx nx generate @nx/angular:library --name=home --directory=modules/home --projectNameAndRootFormat=as-provided --style=scss --no-interactive
 ```
 
-Modulo User
+Modulo Users
 
 ```sh
-npx nx generate @nx/angular:library --name=user --directory=modules/user --projectNameAndRootFormat=as-provided --style=scss --no-interactive
+npx nx generate @nx/angular:library --name=users --directory=modules/users --projectNameAndRootFormat=as-provided --style=scss --no-interactive
 ```
 
 Modulo Shared

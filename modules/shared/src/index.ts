@@ -1,1 +1,3 @@
-export * from './lib/shared/shared.component';
+export * from './lib/header/header.component';
+
+export * from './lib/services/get-param-url.service';

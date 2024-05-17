@@ -14,7 +14,7 @@
     "paths": {
       "home": ["modules/home/src/index.ts"],
       "shared": ["modules/shared/src/index.ts"],
-      "user": ["modules/user/src/index.ts"]
+      "users": ["modules/users/src/index.ts"]
     }
   }
 }
