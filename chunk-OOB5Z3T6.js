@@ -1,1 +1,0 @@
-import{da as o,ib as a,jb as i,vb as r,xb as p}from"./chunk-RZU3FEOF.js";var d=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-home"]],standalone:!0,features:[p],decls:2,vars:0,template:function(n,m){n&1&&(a(0,"p"),r(1,"page home works!"),i())}});let t=e;return t})();export{d as HomeComponent};

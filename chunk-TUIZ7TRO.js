@@ -1,0 +1,1 @@
+import{Ob as s,da as n,ib as i,jb as r,vb as m,xb as a}from"./chunk-FCCNB7DA.js";var l=(()=>{let e=class e{};e.\u0275fac=function(o){return new(o||e)},e.\u0275cmp=n({type:e,selectors:[["lib-home"]],standalone:!0,features:[a],decls:2,vars:0,template:function(o,d){o&1&&(i(0,"p"),m(1,"Page home works!"),r())},dependencies:[s]});let t=e;return t})();export{l as HomeComponent};
