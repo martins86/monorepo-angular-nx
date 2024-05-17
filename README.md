@@ -40,3 +40,27 @@ Adicionando o Nx ( Cacheable: build, test. Remote caching: no )
 ```sh
 npx nx@latest init
 ```
+
+Adicionando Modulos (Library: @nx/angular) [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)
+
+```sh
+GENERATE & RUN TARGET > generate > @nx/angular - library
+```
+
+Modulo Home
+
+```sh
+npx nx generate @nx/angular:library --name=home --directory=modules/home --projectNameAndRootFormat=as-provided --style=scss --no-interactive
+```
+
+Modulo User
+
+```sh
+npx nx generate @nx/angular:library --name=user --directory=modules/user --projectNameAndRootFormat=as-provided --style=scss --no-interactive
+```
+
+Modulo Shared
+
+```sh
+npx nx generate @nx/angular:library --name=shared --directory=modules/shared --projectNameAndRootFormat=as-provided --style=scss --no-interactive
+```
