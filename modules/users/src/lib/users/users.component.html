@@ -1,3 +1,11 @@
-<p>Page users works!</p>
-
 <router-outlet />
+
+<mat-list>
+  @for(user of users$ | async; track user.id) {
+  <mat-list-item>
+    <mat-icon mat-list-icon>person</mat-icon>
+    <a [routerLink]="[user.id]">{{ user.name }}</a>
+  </mat-list-item>
+  <mat-divider></mat-divider>
+  }
+</mat-list>
