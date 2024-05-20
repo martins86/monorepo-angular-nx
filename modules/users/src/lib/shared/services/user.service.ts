@@ -3,16 +3,13 @@ import { Injectable, inject } from '@angular/core';
 
 import { Observable } from 'rxjs';
 
-// eslint-disable-next-line @nx/enforce-module-boundaries
-import { environment } from 'src/environments/environment';
-
 import { User } from '../models/user.model';
 
 @Injectable({
   providedIn: 'root',
 })
 export class UserService {
-  readonly api = environment.api;
+  readonly api = 'https://65009f9718c34dee0cd53786.mockapi.io/users';
   httpClient = inject(HttpClient);
 
   getUsers(): Observable<User[]> {
